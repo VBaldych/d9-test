@@ -1,0 +1,42 @@
+uuid: 672a6667-d5f0-4f2c-bab5-cd80b155debd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.file.field_link_to_file
+    - field.field.media.file.field_media_file
+    - media.type.file
+  module:
+    - file
+    - link
+id: media.file.default
+targetEntityType: media
+bundle: file
+mode: default
+content:
+  field_link_to_file:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_file:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

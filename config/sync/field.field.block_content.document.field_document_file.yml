@@ -1,0 +1,29 @@
+uuid: 45e1c04d-ef2f-4578-b4be-237cc00d1b7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.document
+    - field.storage.block_content.field_document_file
+    - media.type.file
+id: block_content.document.field_document_file
+field_name: field_document_file
+entity_type: block_content
+bundle: document
+label: 'Document file'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      file: file
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

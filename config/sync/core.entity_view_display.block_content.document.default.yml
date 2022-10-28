@@ -1,0 +1,23 @@
+uuid: c862994b-190c-448a-86d8-c4387ccf746a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.document
+    - field.field.block_content.document.field_document_file
+id: block_content.document.default
+targetEntityType: block_content
+bundle: document
+mode: default
+content:
+  field_document_file:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

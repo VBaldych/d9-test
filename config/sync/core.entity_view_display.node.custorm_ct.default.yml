@@ -1,0 +1,29 @@
+uuid: 3edd0455-a740-432e-b076-85f34221601a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.custorm_ct.body
+    - node.type.custorm_ct
+  module:
+    - text
+    - user
+id: node.custorm_ct.default
+targetEntityType: node
+bundle: custorm_ct
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
