@@ -1,0 +1,5 @@
+services:
+  custom_drush_cmd.commands:
+    class: \Drupal\custom_drush_cmd\Commands\BatchCommands
+    tags:
+      - { name: drush.command }

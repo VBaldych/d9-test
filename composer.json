@@ -20,7 +20,6 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
-        "drupal/document_preview": "^0.0.1",
         "drupal/graphql": "^4.4",
         "drupal/ip_language_negotiation": "^1.2",
         "drush/drush": "^10.2"

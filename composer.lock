@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59eeca1ccf7ba7573ce978fca6216404",
+    "content-hash": "2af815d2ad07e13139c6699ae45690f1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1654,50 +1654,6 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.4.8"
             },
             "time": "2022-10-06T15:57:08+00:00"
-        },
-        {
-            "name": "drupal/document_preview",
-            "version": "0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/document_preview.git",
-                "reference": "0.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/document_preview-0.0.1.zip",
-                "reference": "0.0.1",
-                "shasum": "35ce46a5a64c91a065dc65ba21ca6b119e160451"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "0.0.1",
-                    "datestamp": "1665996584",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Luckie Joe",
-                    "homepage": "https://www.drupal.org/user/3711667"
-                }
-            ],
-            "description": "Document Preview module using Google Docs for uploading and preview .pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx and .txt files. Include custom block type \"Document\"",
-            "homepage": "https://www.drupal.org/project/document_preview",
-            "support": {
-                "source": "https://git.drupalcode.org/project/document_preview"
-            }
         },
         {
             "name": "drupal/graphql",
