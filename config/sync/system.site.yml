@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: aa181fa2-234b-4cf6-a679-b59f513a61af
-name: 'My Drupal 9 Site'
-mail: admin@example.com
+uuid: 2020032e-cb2d-4c82-9657-3820afb800b8
+name: 'Drupal 9 Test'
+mail: volodymyr.baldych@lembergsolutions.com
 slogan: ''
 page:
   403: ''

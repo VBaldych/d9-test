@@ -1,8 +1,0 @@
-uuid: a208d406-ff70-4471-a4f8-e9319c95a5e1
-langcode: en
-status: true
-dependencies: {  }
-id: document
-label: 'Document with preview'
-revision: 0
-description: 'Block for uploading and preview .pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx and .txt files'

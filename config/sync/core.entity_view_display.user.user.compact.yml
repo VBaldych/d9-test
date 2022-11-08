@@ -1,4 +1,4 @@
-uuid: bde2dac2-b258-443b-bedc-2549a4a4f8d3
+uuid: 99c2f07a-e560-443e-a168-86b3142820ef
 langcode: en
 status: true
 dependencies:
@@ -20,13 +20,12 @@ content:
     type: image
     label: hidden
     settings:
-      image_link: content
       image_style: thumbnail
+      image_link: content
       image_loading:
         attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
-  langcode: true
   member_for: true

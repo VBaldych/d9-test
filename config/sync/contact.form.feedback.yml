@@ -1,4 +1,4 @@
-uuid: caa583b3-daab-4930-8d4f-5d8aa084a25f
+uuid: c25268a8-0833-4df0-b3cf-6620a542afff
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - admin@example.com
+  - volodymyr.baldych@lembergsolutions.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

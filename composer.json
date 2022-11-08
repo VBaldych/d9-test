@@ -16,7 +16,11 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/a11y_form_helpers": "^2.0",
         "drupal/admin_toolbar": "^3.2",
+        "drupal/block_aria_landmark_roles": "^1.4",
+        "drupal/ckeditor_abbreviation": "^2.0",
+        "drupal/ckeditor_accessibility_auditor": "^1.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
