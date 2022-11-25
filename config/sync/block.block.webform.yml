@@ -1,0 +1,25 @@
+uuid: 4c516cf3-47bb-403d-896c-4bdbd8ae367c
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.node_add_form
+  module:
+    - webform
+  theme:
+    - olivero
+id: webform
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Add node'
+  label_display: visible
+  provider: webform
+  webform_id: node_add_form
+  default_data: ''
+  redirect: false
+visibility: {  }

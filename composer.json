@@ -28,6 +28,7 @@
         "drupal/core-recommended": "^9",
         "drupal/graphql": "^4.4",
         "drupal/ip_language_negotiation": "^1.2",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10.2"
     },
     "conflict": {
