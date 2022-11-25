@@ -1,9 +1,9 @@
-uuid: 4c516cf3-47bb-403d-896c-4bdbd8ae367c
+uuid: 4e4e47a9-156d-40d1-95cd-d5c414da4ff6
 langcode: en
 status: true
 dependencies:
   config:
-    - webform.webform.node_add_form
+    - webform.webform.event_form
   module:
     - webform
   theme:
@@ -16,10 +16,10 @@ provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: 'Add node'
+  label: Webform
   label_display: visible
   provider: webform
-  webform_id: node_add_form
+  webform_id: event_form
   default_data: ''
   redirect: false
 visibility: {  }

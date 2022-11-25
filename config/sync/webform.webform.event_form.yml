@@ -211,5 +211,6 @@ handlers:
     status: true
     conditions: {  }
     weight: 0
-    settings: {  }
+    settings:
+      choose_node_type: page
 variants: {  }
