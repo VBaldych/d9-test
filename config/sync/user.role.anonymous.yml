@@ -6,8 +6,10 @@ dependencies:
     - filter.format.restricted_html
   module:
     - comment
+    - commerce_product
     - contact
     - filter
+    - graphql
     - search
     - system
 _core:
@@ -20,5 +22,10 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'bypass graphql access'
+  - 'execute graphql arbitrary graphql requests'
+  - 'execute graphql persisted graphql requests'
   - 'search content'
+  - 'use graphql graphql explorer'
   - 'use text format restricted_html'
+  - 'view commerce_product'

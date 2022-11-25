@@ -97,6 +97,10 @@
       <path value="$PROJECT_DIR$/vendor/drush/drush" />
       <path value="$PROJECT_DIR$/vendor/webonyx/graphql-php" />
       <path value="$PROJECT_DIR$/vendor/smgladkovskiy/phpcs-git-pre-commit" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/commerceguys/intl" />
+      <path value="$PROJECT_DIR$/vendor/commerceguys/addressing" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

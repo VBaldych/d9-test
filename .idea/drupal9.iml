@@ -94,6 +94,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/drush/drush" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webonyx/graphql-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/smgladkovskiy/phpcs-git-pre-commit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/commerceguys/intl" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/commerceguys/addressing" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

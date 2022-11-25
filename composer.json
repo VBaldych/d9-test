@@ -21,6 +21,8 @@
         "drupal/block_aria_landmark_roles": "^1.4",
         "drupal/ckeditor_abbreviation": "^2.0",
         "drupal/ckeditor_accessibility_auditor": "^1.0",
+        "drupal/coffee": "^1.2",
+        "drupal/commerce": "^2.32",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
@@ -100,5 +102,8 @@
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
         "drupal/coder": "^8.3",
         "smgladkovskiy/phpcs-git-pre-commit": "dev-master"
+    },
+    "scripts": {
+        "sort-packages": true
     }
 }
