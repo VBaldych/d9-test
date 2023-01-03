@@ -29,7 +29,7 @@
         "drupal/graphql": "^4.4",
         "drupal/ip_language_negotiation": "^1.2",
         "drupal/webform": "^6.1",
-        "drush/drush": "^10.2",
+        "drush/drush": "^11.4.0",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
     "conflict": {
