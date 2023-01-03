@@ -9,7 +9,6 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
-  ckeditor: 0
   coffee: 0
   comment: 0
   commerce: 0
@@ -48,7 +47,6 @@ module:
   path: 0
   path_alias: 0
   profile: 0
-  rdf: 0
   search: 0
   shortcut: 0
   state_machine: 0
