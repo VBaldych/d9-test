@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
+        "composer/installers": "^v2.2.0",
         "drupal/a11y_form_helpers": "^2.0",
         "drupal/admin_toolbar": "^3.2",
         "drupal/block_aria_landmark_roles": "^1.4",
