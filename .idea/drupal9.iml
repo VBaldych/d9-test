@@ -20,7 +20,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/consolidation/filter-via-dot-access-data" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/consolidation/robo" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/path-util" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/masterminds/html5" />
@@ -29,11 +28,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony-cmf/routing" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/enlightn/security-checker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/reflection" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/grasmash/yaml-expander" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/grasmash/expander" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/slevomat/coding-standard" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/squizlabs/php_codesniffer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
@@ -98,6 +95,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/commerceguys/intl" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/commerceguys/addressing" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/wikimedia/composer-merge-plugin" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-grapheme" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
