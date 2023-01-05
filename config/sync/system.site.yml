@@ -2,9 +2,9 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 2020032e-cb2d-4c82-9657-3820afb800b8
-name: 'Drupal 9 Test'
+name: 'Luckie Frankenstein'
 mail: volodymyr.baldych@lembergsolutions.com
-slogan: ''
+slogan: 'Site-sandbox for learning and improving my tech skills'
 page:
   403: ''
   404: ''
