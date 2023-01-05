@@ -1,12 +1,14 @@
-new Vue({
-    el: '#app',
+const { createApp } = Vue
 
-    data: {
-        hello: 'Hello World, Again!',
-        names: [
-            {firstname: 'John', lastname:'Doe'},
-            {firstname: 'Jane', lastname:'Jones'},
-            {firstname: 'Will ', lastname:'Smith'}
-        ]
+createApp({
+  data() {
+    return {
+      hello: 'Hello World, Again!',
+      names: [
+        { firstname: 'John', lastname:'Doe' },
+        { firstname: 'Jane', lastname:'Jones' },
+        { firstname: 'Will ', lastname:'Smith' }
+      ]
     }
-})
+  }
+}).mount('#app');
