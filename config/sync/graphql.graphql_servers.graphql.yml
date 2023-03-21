@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: graphql
+
 label: GraphQL
 endpoint: /graphql
 debug_flag: 0
