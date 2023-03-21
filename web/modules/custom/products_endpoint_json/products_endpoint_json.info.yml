@@ -1,0 +1,5 @@
+name: 'Products Endpoint - JSON'
+type: module
+description: 'Dive into headless'
+core_version_requirement: ^9
+package: 'Luckie Joe'

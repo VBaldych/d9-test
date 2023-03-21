@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/a11y_form_helpers": "^2.0",
         "drupal/admin_toolbar": "^3.2",
         "drupal/block_aria_landmark_roles": "^1.4",
@@ -27,7 +28,6 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/graphql": "^4.4",
-        "drupal/ip_language_negotiation": "^1.2",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.2"
     },
@@ -42,7 +42,9 @@
             "composer/installers": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "cweagans/composer-patches": true,
+            "drupal/console-extend-plugin": true
         }
     },
     "extra": {
@@ -97,6 +99,13 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "enable-patching": true,
+        "patches": {
+            "drupal/core": {
+                "#3050660: Messages for missing system.site config file and empty config have room for improvement": "https://www.drupal.org/files/issues/2021-07-15/3050660-22.patch",
+                "#3043779: Exception when hitting path prefixed with index.php with RequestPath condition": "https://www.drupal.org/files/issues/2023-01-27/3043779-46.patch"
+            }
         }
     },
     "require-dev": {

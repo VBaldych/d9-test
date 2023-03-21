@@ -1,0 +1,7 @@
+products_endpoint_json.product_list:
+  path: '/api/products'
+  defaults:
+    _controller: '\Drupal\products_endpoint_json\Controller\ProductsEndpointJson::getProductList'
+  methods:  [GET]
+  requirements:
+    _permission: 'access content'
