@@ -1,20 +1,17 @@
-uuid: a1187dbc-0174-41dd-8d2c-cb3368981992
+uuid: 9b8b1027-33e2-4247-9613-c9abb762e245
 langcode: en
 status: true
 dependencies: {  }
 name: graphql
-label: Graphql
+
+label: GraphQL
 endpoint: /graphql
 debug_flag: 0
-schema: composable
+schema: example
 caching: true
 batching: true
 disable_introspection: false
 query_depth: null
 query_complexity: null
-schema_configuration:
-  composable:
-    extensions:
-      composable_extension: composable_extension
-      example_extension: 0
+schema_configuration: {  }
 persisted_queries_settings: {  }
