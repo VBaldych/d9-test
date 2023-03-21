@@ -18,16 +18,16 @@ class ProductsEndpointJson extends ControllerBase {
    * @return \Symfony\Component\HttpFoundation\JsonResponse
    *   The JSON response containing product information.
    */
-  public function getProductList() {
+  public function getProductList() : JsonResponse {
     // Your code to retrieve the product information goes here.
     $products = \Drupal::entityTypeManager()->getStorage('commerce_product')->loadMultiple();
 
     // Loop through the products and build the output array.
     foreach ($products as $product) {
-      $output[] = array(
+      $output[] = [
         'title' => $product->getTitle(),
         'price' => $product->getPrice(),
-      );
+      ];
     }
 
     return new JsonResponse($output);
