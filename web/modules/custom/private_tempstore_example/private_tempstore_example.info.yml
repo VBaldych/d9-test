@@ -1,0 +1,5 @@
+name: 'Private Tempstore Example'
+type: module
+description: 'Demostrate different ways to get values from a form'
+core_version_requirement: ^9 || ^10
+package: 'Luckie Joe'

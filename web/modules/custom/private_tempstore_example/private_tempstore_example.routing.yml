@@ -1,0 +1,15 @@
+private_tempstore_example.with_store_form:
+  path: '/private_tempstore_example/form/private_tempstore_example_form'
+  defaults:
+    _form: '\Drupal\private_tempstore_example\Form\WithStoreForm'
+    _title: 'A form with PrivateTempStore'
+  requirements:
+    _access: 'TRUE'
+
+private_tempstore_example.simple_controller_show_item:
+  path: '/private_tempstore_example/showitem'
+  defaults:
+    _controller: '\Drupal\private_tempstore_example\Controller\SimpleController::showRssItems'
+    _title: 'Simple Controller with PrivateTempStore'
+  requirements:
+    _permission: 'access content'

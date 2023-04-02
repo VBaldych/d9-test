@@ -1,0 +1,4 @@
+services:
+  private_tempstore_example.myservices:
+    class: Drupal\private_tempstore_example\Service\MyServices
+    arguments: ['@messenger', '@http_client', '@string_translation']
