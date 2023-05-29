@@ -110,6 +110,38 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/cweagans/composer-patches" />
+      <path value="$PROJECT_DIR$/vendor/drupal/entity_reference_revisions" />
+      <path value="$PROJECT_DIR$/vendor/drupal/inline_entity_form" />
+      <path value="$PROJECT_DIR$/vendor/drupal/webform" />
+      <path value="$PROJECT_DIR$/vendor/drupal/coffee" />
+      <path value="$PROJECT_DIR$/vendor/drupal/typed_data" />
+      <path value="$PROJECT_DIR$/vendor/drupal/admin_toolbar" />
+      <path value="$PROJECT_DIR$/vendor/drupal/ckeditor_accessibility_auditor" />
+      <path value="$PROJECT_DIR$/vendor/drupal/address" />
+      <path value="$PROJECT_DIR$/vendor/drupal/graphql" />
+      <path value="$PROJECT_DIR$/vendor/drupal/ckeditor_abbreviation" />
+      <path value="$PROJECT_DIR$/vendor/drupal/profile" />
+      <path value="$PROJECT_DIR$/vendor/drupal/ckeditor" />
+      <path value="$PROJECT_DIR$/vendor/drupal/a11y_form_helpers" />
+      <path value="$PROJECT_DIR$/vendor/drupal/state_machine" />
+      <path value="$PROJECT_DIR$/vendor/drupal/block_aria_landmark_roles" />
+      <path value="$PROJECT_DIR$/vendor/drupal/entity" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core" />
+      <path value="$PROJECT_DIR$/vendor/drupal/commerce" />
+      <path value="$PROJECT_DIR$/vendor/drupal/token" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/galbar/jsonpath" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/steverhoades/oauth2-openid-connect-server" />
+      <path value="$PROJECT_DIR$/vendor/stella-maris/clock" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/psr/clock" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
@@ -117,6 +149,11 @@
   </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />

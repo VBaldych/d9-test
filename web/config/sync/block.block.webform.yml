@@ -1,0 +1,25 @@
+uuid: 4e4e47a9-156d-40d1-95cd-d5c414da4ff6
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.event_form
+  module:
+    - webform
+  theme:
+    - olivero
+id: webform
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  label_display: visible
+  provider: webform
+  webform_id: event_form
+  default_data: ''
+  redirect: false
+visibility: {  }

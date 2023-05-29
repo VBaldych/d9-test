@@ -5,8 +5,7 @@
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/drupal",
     "support": {
-        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
-        "chat": "https://www.drupal.org/node/314178"
+        "docs": "https://www.drupal.org/docs/user_guide/en/index.html"
     },
     "repositories": [
         {
@@ -28,8 +27,9 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/graphql": "^4.4",
+        "drupal/next": "^1.6",
         "drupal/webform": "^6.1",
-        "drush/drush": "^10.2"
+        "drush/drush": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -105,6 +105,12 @@
             "drupal/core": {
                 "#3050660: Messages for missing system.site config file and empty config have room for improvement": "https://www.drupal.org/files/issues/2021-07-15/3050660-22.patch",
                 "#3043779: Exception when hitting path prefixed with index.php with RequestPath condition": "https://www.drupal.org/files/issues/2023-01-27/3043779-46.patch"
+            },
+            "drupal/subrequests": {
+                "#63049395: Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"
+            },
+            "drupal/decoupled_router": {
+                "#3111456: Unable to resolve path on node in other language than default": "https://www.drupal.org/files/issues/2022-11-30/decouple_router-3111456-resolve-language-issue-58.patch"
             }
         }
     },
