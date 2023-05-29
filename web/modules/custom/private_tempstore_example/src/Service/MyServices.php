@@ -123,7 +123,7 @@ class MyServices {
       '#type' => 'table',
       '#header' => $header,
       '#rows' => $output,
-      '#empty' => t('No Data'),
+      '#empty' => $this->t('No Data'),
     ];
   }
 
