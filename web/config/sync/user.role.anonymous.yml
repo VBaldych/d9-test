@@ -10,6 +10,7 @@ dependencies:
     - contact
     - filter
     - graphql
+    - media
     - search
     - system
 _core:
@@ -29,3 +30,4 @@ permissions:
   - 'use graphql graphql explorer'
   - 'use text format restricted_html'
   - 'view commerce_product'
+  - 'view media'

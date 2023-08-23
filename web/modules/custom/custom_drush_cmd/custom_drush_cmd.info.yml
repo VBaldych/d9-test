@@ -1,5 +1,5 @@
 name: 'Custom Drush Command'
 type: module
 description: 'Drush commands for custom methods.'
-core_version_requirement: ^9
+core_version_requirement: ">=9.3"
 package: 'Luckie Joe'

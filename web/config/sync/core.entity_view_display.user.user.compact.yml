@@ -29,4 +29,5 @@ content:
     region: content
 hidden:
   customer_profiles: true
+  langcode: true
   member_for: true

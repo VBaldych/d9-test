@@ -10,7 +10,8 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
-  ckeditor: 0
+  ckeditor5: 0
+  ckeditor5_line_height: 0
   coffee: 0
   comment: 0
   commerce: 0
@@ -41,7 +42,10 @@ module:
   image: 0
   inline_entity_form: 0
   jsonapi: 0
+  language: 0
   link: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -52,10 +56,11 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  phpass: 0
   private_tempstore_example: 0
   products_endpoint_json: 0
   profile: 0
-  rdf: 0
+  responsive_image: 0
   search: 0
   serialization: 0
   shortcut: 0
@@ -75,6 +80,7 @@ module:
   webform_create_event: 0
   webform_ui: 0
   pathauto: 1
+  content_translation: 10
   views: 10
   standard: 1000
 theme:

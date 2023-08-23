@@ -4,12 +4,15 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - filter.format.full_html
   module:
     - comment
     - commerce_order
     - commerce_product
     - contact
+    - file
     - filter
+    - media
     - search
     - shortcut
     - system
@@ -24,9 +27,12 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'delete own files'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format full_html'
   - 'view commerce_product'
+  - 'view media'
   - 'view own commerce_order'

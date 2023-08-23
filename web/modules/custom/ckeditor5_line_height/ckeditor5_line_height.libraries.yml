@@ -1,0 +1,10 @@
+line_height:
+  js:
+    js/build/ckeditor5_line_height.js: { preprocess: false, minified: true }
+  dependencies:
+    - core/ckeditor5
+
+admin.line_height:
+  css:
+    theme:
+      css/line_height.admin.css: { }

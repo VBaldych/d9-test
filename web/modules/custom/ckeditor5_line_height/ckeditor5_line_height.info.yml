@@ -1,0 +1,7 @@
+name: CKEditor5 Line Height
+type: module
+description: Provides CKEditor5 Line Height plugin.
+package: CKEditor
+core_version_requirement: ">=9.3"
+dependencies:
+  - drupal:ckeditor5

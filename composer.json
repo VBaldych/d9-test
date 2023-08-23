@@ -16,20 +16,16 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
-        "drupal/a11y_form_helpers": "^2.0",
         "drupal/admin_toolbar": "^3.2",
-        "drupal/block_aria_landmark_roles": "^1.4",
-        "drupal/ckeditor_abbreviation": "^2.0",
-        "drupal/ckeditor_accessibility_auditor": "^1.0",
         "drupal/coffee": "^1.2",
         "drupal/commerce": "^2.32",
-        "drupal/core-composer-scaffold": "^9",
-        "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9",
+        "drupal/core-composer-scaffold": "^10",
+        "drupal/core-project-message": "^10",
+        "drupal/core-recommended": "^10",
         "drupal/graphql": "^4.4",
         "drupal/next": "^1.6",
-        "drupal/webform": "^6.1",
-        "drush/drush": "*"
+        "drupal/webform": "^6.2@beta",
+        "drush/drush": "^12"
     },
     "conflict": {
         "drupal/drupal": "*"
