@@ -19,6 +19,13 @@ class LineHeight extends CKEditor5PluginDefault implements CKEditor5PluginConfig
   use CKEditor5PluginConfigurableTrait;
 
   /**
+   * The default config name for line height options.
+   *
+   * @var string
+   */
+  const CONFIG_NAME = 'line_height_options';
+
+  /**
    * The default array of line height options.
    *
    * @var string[][]
@@ -42,28 +49,27 @@ class LineHeight extends CKEditor5PluginDefault implements CKEditor5PluginConfig
     ],
   ];
 
-//  @todo DEFAULT_CONFIGURATION in descr
-//  https://www.drupal.org/project/console/issues/3337542 - drupal console
-//
-
   /**
    * {@inheritdoc}
    */
-  public function defaultConfiguration() {
+  public function defaultConfiguration(): array {
     return static::DEFAULT_CONFIGURATION;
   }
 
   /**
    * {@inheritdoc}
    */
-  public function buildConfigurationForm(array $form, FormStateInterface $form_state) {
-    $form['line_height_options'] = [
+  public function buildConfigurationForm(array $form, FormStateInterface $form_state): array {
+    $form[static::CONFIG_NAME] = [
       '#type' => 'textarea',
       '#title' => $this->t('Line Height Options'),
-      '#default_value' => implode(' ', $this->configuration['line_height_options']),
-      '#description' => $this->t('A list of line height options separated with " ".
-                                        Default options are 0 0.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5<br>
-                                        If you want to reset your options, just clean the text field and click "Save configuration"'),
+      '#default_value' => implode(' ', $this->configuration[static::CONFIG_NAME]),
+      '#description' => $this->t(
+        'A list of line height options separated with " ".
+        Default options are ' . implode(' ', static::DEFAULT_CONFIGURATION[static::CONFIG_NAME]) . '<br>
+        The maximal value should be less than 10<br>
+        If you want to reset your options, just clean the text field and click "Save configuration"'
+      ),
     ];
 
     return $form;
@@ -72,26 +78,34 @@ class LineHeight extends CKEditor5PluginDefault implements CKEditor5PluginConfig
   /**
    * {@inheritdoc}
    */
-  public function validateConfigurationForm(array &$form, FormStateInterface $form_state) {
+  public function validateConfigurationForm(array &$form, FormStateInterface $form_state): void {
     // Match the config schema structure at
     // ckeditor5.plugin.ckeditor5_line_height_line_height.
-    $options_string = $form_state->getValue('line_height_options');
+    $options_string = $form_state->getValue(static::CONFIG_NAME);
 
     if ($options_string !== "") {
-      // @todo Try to change with HTMLRestrictions::fromString($options_string)->toCKEditor5ElementsArray();
-      $options_array = explode(' ', $options_string);
-      $form_state->setValue('line_height_options', $options_array);
+      $string_without_extra_spaces = preg_replace('/\s+/', ' ', $options_string);
+      $options_array = explode(' ', trim($string_without_extra_spaces));
+
+      // Remove item if value >= 10
+      foreach ($options_array as $key => $value) {
+        if ($value >= 10) {
+          unset($options_array[$key]);
+        }
+      }
+
+      $form_state->setValue(static::CONFIG_NAME, array_unique($options_array));
     }
     else {
-      $form_state->setValue('line_height_options', static::DEFAULT_CONFIGURATION['line_height_options']);
+      $form_state->setValue(static::CONFIG_NAME, static::DEFAULT_CONFIGURATION[static::CONFIG_NAME]);
     }
   }
 
   /**
    * {@inheritdoc}
    */
-  public function submitConfigurationForm(array &$form, FormStateInterface $form_state) {
-    $this->configuration['line_height_options'] = $form_state->getValue('line_height_options');
+  public function submitConfigurationForm(array &$form, FormStateInterface $form_state): void {
+    $this->configuration[static::CONFIG_NAME] = $form_state->getValue(static::CONFIG_NAME);
   }
 
   /**
@@ -100,7 +114,7 @@ class LineHeight extends CKEditor5PluginDefault implements CKEditor5PluginConfig
   public function getDynamicPluginConfig(array $static_plugin_config, EditorInterface $editor): array {
     return [
       'lineHeight' => [
-        'options' => $this->getConfiguration()['line_height_options'],
+        'options' => $this->configuration[static::CONFIG_NAME],
       ],
     ];
   }
