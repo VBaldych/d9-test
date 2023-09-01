@@ -25,6 +25,7 @@ module:
   consumers: 0
   contact: 0
   contextual: 0
+  core_event_dispatcher: 0
   datetime: 0
   dblog: 0
   decoupled_router: 0
@@ -39,6 +40,8 @@ module:
   graphql: 0
   help: 0
   history: 0
+  hook_event: 0
+  hook_event_dispatcher: 0
   image: 0
   inline_entity_form: 0
   jsonapi: 0
