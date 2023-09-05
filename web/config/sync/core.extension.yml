@@ -25,10 +25,12 @@ module:
   consumers: 0
   contact: 0
   contextual: 0
-  core_event_dispatcher: 0
+  custom_event: 0
+  custom_login_event: 0
   datetime: 0
   dblog: 0
   decoupled_router: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -40,8 +42,6 @@ module:
   graphql: 0
   help: 0
   history: 0
-  hook_event: 0
-  hook_event_dispatcher: 0
   image: 0
   inline_entity_form: 0
   jsonapi: 0
@@ -76,12 +76,14 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  tracer: 0
   typed_data: 0
   user: 0
   views_ui: 0
   webform: 0
   webform_create_event: 0
   webform_ui: 0
+  webprofiler: 0
   pathauto: 1
   content_translation: 10
   views: 10

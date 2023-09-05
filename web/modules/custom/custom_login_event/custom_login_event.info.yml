@@ -1,0 +1,5 @@
+name: 'Custom Login Event'
+type: module
+description: 'Custom event for user login'
+package: 'Package'
+core_version_requirement: ">=9"
