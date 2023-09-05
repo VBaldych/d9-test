@@ -1,5 +1,0 @@
-<?php
-function hook_event_preprocess_node(&$variables) {
-  $a = 1;
-
-}

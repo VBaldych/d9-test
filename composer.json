@@ -23,9 +23,10 @@
         "drupal/core-project-message": "^10",
         "drupal/core-recommended": "^10",
         "drupal/graphql": "^4.4",
-        "drupal/hook_event_dispatcher": "^4.0@RC",
+        "drupal/hook_event_dispatcher": "^4.x-dev",
         "drupal/next": "^1.6",
         "drupal/webform": "^6.2@beta",
+        "drupal/webprofiler": "^10.1",
         "drush/drush": "^12"
     },
     "conflict": {
