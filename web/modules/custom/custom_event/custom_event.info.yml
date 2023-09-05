@@ -1,0 +1,5 @@
+name: 'Custom Event'
+type: module
+description: 'Description.'
+package: 'Package'
+core_version_requirement: ">=9"

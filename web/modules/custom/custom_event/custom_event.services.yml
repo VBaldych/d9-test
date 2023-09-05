@@ -1,0 +1,5 @@
+services:
+  custom_event_subscriber:
+    class: Drupal\custom_event\EventSubscriber\EventsExampleSubscriber
+    tags:
+      - {name: event_subscriber}

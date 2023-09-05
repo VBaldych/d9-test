@@ -1,0 +1,8 @@
+# Define a route for our event dispatching example.
+custom_event.description:
+  path: '/custom-event'
+  defaults:
+    _form: '\Drupal\custom_event\Form\EventsExampleForm'
+    _title: 'Events Example'
+  requirements:
+    _permission: 'access content'
