@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf40ea1e-8817-4193-a14e-a12014963411" name="Changes" comment="Install hook_event_dispatcher. Create EventSubscriber instead of using hook_entity_view">
-      <change beforePath="$PROJECT_DIR$/.idea/d9-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/d9-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+    <list default="true" id="cf40ea1e-8817-4193-a14e-a12014963411" name="Changes" comment="Create custom login event module. Enable extra modules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/hook_event/hook_event.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/custom_event/custom_event.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/custom_event/custom_event.routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/custom_event/custom_event.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/custom_event/custom_event.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/custom_event/src/Event/IncidentEvents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/custom_event/src/Event/IncidentReportEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/custom_event/src/Event/IncidentReportEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/custom_event/src/EventSubscriber/EventsExampleSubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/custom_event/src/EventSubscriber/IncidentReportSubscriber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/custom_event/src/Form/EventsExampleForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/custom_event/src/Form/CustomEventForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/custom_login_event/src/EventSubscriber/UserLoginSubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/custom_login_event/src/EventSubscriber/UserLoginSubscriber.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +273,7 @@
       <workItem from="1693822354859" duration="4635000" />
       <workItem from="1693844950842" duration="3773000" />
       <workItem from="1693897607311" duration="3648000" />
-      <workItem from="1693905892983" duration="4028000" />
+      <workItem from="1693905892983" duration="6187000" />
     </task>
     <task id="LOCAL-00001" summary="PphpStorm configs update">
       <option name="closed" value="true" />
@@ -290,7 +291,39 @@
       <option name="project" value="LOCAL" />
       <updated>1693580884478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Install webprofiler">
+      <option name="closed" value="true" />
+      <created>1693910412075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693910412075</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update PHPStorm settings">
+      <option name="closed" value="true" />
+      <created>1693910456682</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693910456682</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create first custom event module">
+      <option name="closed" value="true" />
+      <created>1693910536110</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693910536110</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create custom login event module. Enable extra modules">
+      <option name="closed" value="true" />
+      <created>1693910599313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693910599313</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +332,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PphpStorm configs update" />
     <MESSAGE value="Install hook_event_dispatcher. Create EventSubscriber instead of using hook_entity_view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install hook_event_dispatcher. Create EventSubscriber instead of using hook_entity_view" />
+    <MESSAGE value="Install webprofiler" />
+    <MESSAGE value="Update PHPStorm settings" />
+    <MESSAGE value="Create first custom event module" />
+    <MESSAGE value="Create custom login event module. Enable extra modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create custom login event module. Enable extra modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

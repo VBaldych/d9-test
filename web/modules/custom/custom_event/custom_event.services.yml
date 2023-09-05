@@ -1,5 +1,6 @@
 services:
   custom_event_subscriber:
-    class: Drupal\custom_event\EventSubscriber\EventsExampleSubscriber
+    class: Drupal\custom_event\EventSubscriber\IncidentReportSubscriber
+    arguments: ['@messenger']
     tags:
       - {name: event_subscriber}

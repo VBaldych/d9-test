@@ -5,6 +5,7 @@ namespace Drupal\custom_login_event\EventSubscriber;
 use Drupal\Core\Database\Connection;
 use Drupal\Core\Datetime\DateFormatterInterface;
 use Drupal\Core\Messenger\Messenger;
+use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\custom_login_event\Event\UserLoginEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
@@ -14,6 +15,8 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
  * @package Drupal\custom_login_event\EventSubscriber
  */
 class UserLoginSubscriber implements EventSubscriberInterface {
+
+  use StringTranslationTrait;
 
   /**
    * Constructs a new UserLoginSubscriber object.
@@ -53,7 +56,7 @@ class UserLoginSubscriber implements EventSubscriberInterface {
       ->execute()
       ->fetchField();
 
-    $this->messenger->addStatus(t('Welcome, your account was created on %created_date.', [
+    $this->messenger->addStatus($this->t('Welcome, your account was created on %created_date.', [
       '%created_date' => $this->dateFormatter->format($account_created, 'short'),
     ]));
   }
