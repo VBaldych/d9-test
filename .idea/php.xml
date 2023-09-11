@@ -7,11 +7,15 @@
     <option name="transferred" value="true" />
   </component>
   <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="codingStandard" value="Drupal" />
+    <option name="highlightLevel" value="WARNING" />
+    <option name="installedPaths" value="$PROJECT_DIR$/vendor/drupal/coder/coder_sniffer" />
+    <option name="useInstalledPaths" value="true" />
     <option name="transferred" value="true" />
   </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration tool_path="$PROJECT_DIR$/vendor/bin/phpcs" />
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpIncludePathManager">
@@ -29,33 +33,25 @@
       <path value="$PROJECT_DIR$/vendor/consolidation/filter-via-dot-access-data" />
       <path value="$PROJECT_DIR$/vendor/consolidation/robo" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
       <path value="$PROJECT_DIR$/vendor/sirbrillig/phpcs-variable-analysis" />
       <path value="$PROJECT_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
-      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
-      <path value="$PROJECT_DIR$/vendor/enlightn/security-checker" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
-      <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
       <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/slevomat/coding-standard" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/chi-teck/drupal-code-generator" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
@@ -68,21 +64,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-feed" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-stdlib" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
       <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
-      <path value="$PROJECT_DIR$/vendor/typo3/phar-stream-wrapper" />
-      <path value="$PROJECT_DIR$/vendor/stack/builder" />
-      <path value="$PROJECT_DIR$/vendor/drupal/core-project-message" />
       <path value="$PROJECT_DIR$/vendor/drupal/core-composer-scaffold" />
       <path value="$PROJECT_DIR$/vendor/league/container" />
       <path value="$PROJECT_DIR$/vendor/drupal/coder" />
@@ -100,6 +87,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/vendor/commerceguys/intl" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core-project-message" />
       <path value="$PROJECT_DIR$/vendor/consolidation/annotated-command" />
       <path value="$PROJECT_DIR$/vendor/consolidation/self-update" />
       <path value="$PROJECT_DIR$/vendor/consolidation/output-formatters" />
@@ -110,13 +98,109 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/cweagans/composer-patches" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/drupal/a11y_form_helpers" />
+      <path value="$PROJECT_DIR$/vendor/drupal/address" />
+      <path value="$PROJECT_DIR$/vendor/drupal/admin_toolbar" />
+      <path value="$PROJECT_DIR$/vendor/drupal/block_aria_landmark_roles" />
+      <path value="$PROJECT_DIR$/vendor/drupal/ckeditor" />
+      <path value="$PROJECT_DIR$/vendor/drupal/ckeditor_abbreviation" />
+      <path value="$PROJECT_DIR$/vendor/drupal/ckeditor_accessibility_auditor" />
+      <path value="$PROJECT_DIR$/vendor/drupal/coffee" />
+      <path value="$PROJECT_DIR$/vendor/drupal/commerce" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core" />
+      <path value="$PROJECT_DIR$/vendor/drupal/entity" />
+      <path value="$PROJECT_DIR$/vendor/drupal/entity_reference_revisions" />
+      <path value="$PROJECT_DIR$/vendor/drupal/graphql" />
+      <path value="$PROJECT_DIR$/vendor/drupal/inline_entity_form" />
+      <path value="$PROJECT_DIR$/vendor/drupal/profile" />
+      <path value="$PROJECT_DIR$/vendor/drupal/state_machine" />
+      <path value="$PROJECT_DIR$/vendor/drupal/token" />
+      <path value="$PROJECT_DIR$/vendor/drupal/typed_data" />
+      <path value="$PROJECT_DIR$/vendor/drupal/webform" />
+      <path value="$PROJECT_DIR$/vendor/galbar/jsonpath" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/vendor/steverhoades/oauth2-openid-connect-server" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/yaml-cli" />
+      <path value="$PROJECT_DIR$/vendor/mck89/peast" />
+      <path value="$PROJECT_DIR$/vendor/phootwork/collection" />
+      <path value="$PROJECT_DIR$/vendor/phootwork/lang" />
+      <path value="$PROJECT_DIR$/vendor/phpowermove/docblock" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/vendor/enlightn/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-feed" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/vendor/stack/builder" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="26c98cf4-aab9-4750-81cb-95cb3c85fe85" name="DDEV" home="docker-compose://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php8.1" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="web" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+          <PathMappingSettings>
+            <option name="pathMappings">
+              <list>
+                <mapping local-root="$PROJECT_DIR$/.ddev" remote-root="/mnt/ddev_config" />
+                <mapping local-root="$PROJECT_DIR$/.ddev/xhprof" remote-root="/usr/local/bin/xhprof" />
+                <mapping local-root="$PROJECT_DIR$/web/sites/default/files" remote-root="/var/www/html/web/sites/default/files" />
+                <mapping local-root="$PROJECT_DIR$/.git" remote-root="/var/www/html/.git" />
+              </list>
+            </option>
+          </PathMappingSettings>
+          <type_data command="EXEC" />
+          <dockerComposeConfigurationPaths>
+            <item value="$PROJECT_DIR$/.ddev/.ddev-docker-compose-full.yaml" />
+          </dockerComposeConfigurationPaths>
+          <envs>
+            <env name="COMPOSE_PROJECT_NAME" value="ddev-drupal9" />
+          </envs>
+        </remote_data>
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />

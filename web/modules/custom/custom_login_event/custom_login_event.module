@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_login_event.module.
+ */
+
+use Drupal\custom_login_event\Event\UserLoginEvent;
+
+/**
+ * Implements hook_user_login().
+ */
+function custom_login_event_user_login($account): void {
+  // Instantiate our event.
+  $event = new UserLoginEvent($account);
+
+  // Get the event_dispatcher service and dispatch the event.
+  $event_dispatcher = \Drupal::service('event_dispatcher');
+  $event_dispatcher->dispatch($event, UserLoginEvent::EVENT_NAME);
+}

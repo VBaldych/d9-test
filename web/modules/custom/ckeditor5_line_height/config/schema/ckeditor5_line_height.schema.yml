@@ -1,0 +1,12 @@
+# Plugin \Drupal\ckeditor5_line_height\Plugin\CKEditor5Plugin\LineHeight
+ckeditor5.plugin.ckeditor5_line_height_line_height:
+  type: mapping
+  label: 'Line Height Options'
+  mapping:
+    line_height_options:
+      type: sequence
+      orderby: value
+      label: 'Line Height Options'
+      sequence:
+        type: string
+        label: 'Line Height Options'

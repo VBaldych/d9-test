@@ -1,0 +1,6 @@
+services:
+  custom_login_event.user_login_event_subscriber:
+    class: Drupal\custom_login_event\EventSubscriber\UserLoginSubscriber
+    arguments: ['@database', '@date.formatter', '@messenger']
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,5 @@
+services:
+  hook_event.hook_entity_view:
+    class: Drupal\hook_event\EventSubscriber\EntityViewSubscriber
+    tags:
+      -  { name: event_subscriber }
